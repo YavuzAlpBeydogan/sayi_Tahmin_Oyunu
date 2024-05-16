@@ -79,10 +79,10 @@
                     feedbackDiv.innerHTML = `<p>Tebrikler ${sayac} defada bildiniz.</p>`;
                     feedbackDiv.innerHTML += `<p>Puan: ${100 - (100 / can) * (sayac - 1)}</p>`;
                     resultDiv.appendChild(feedbackDiv);
-                } else if (sayi < tahmin) { // Değiştirildi
+                } else if (sayi < tahmin) {
                     feedbackDiv.innerHTML = '<p>Aşağı</p>';
                     resultDiv.appendChild(feedbackDiv);
-                } else { // Değiştirildi
+                } else {
                     feedbackDiv.innerHTML = '<p>Yukarı</p>';
                     resultDiv.appendChild(feedbackDiv);
                 }
